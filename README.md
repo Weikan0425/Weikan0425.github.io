@@ -2,7 +2,7 @@
 
 This repository contains the English, single-page academic profile for Kan Wei. GitHub Pages publishes `index.html` from the `main` branch root.
 
-The page uses a reference-led grid-paper design and includes a short research profile, selected publications, public benchmark links, email, Google Scholar, and GitHub.
+The page uses a reference-led design with a plain light background and rectangular portrait. It includes a short research profile, selected publications, public benchmark links, email, Google Scholar, and GitHub.
 
 ## Local preview
 
