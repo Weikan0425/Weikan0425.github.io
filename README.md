@@ -1,9 +1,17 @@
 # Kan Wei — Academic Homepage
 
-This repository contains the English, single-page academic profile for Kan Wei. GitHub Pages publishes `index.html` from the `main` branch root.
+Live site: <https://weikan0425.github.io/>
 
-The page uses a reference-led design with a plain light background and rectangular portrait. It includes a short research profile, selected publications, public benchmark links, email, Google Scholar, and GitHub.
+## Edit the page
 
-## Local preview
+- `index.html` contains all visible text and links. Search for `Research Focus`, `Selected Publications`, or `Open Benchmarks` to find the section you want to edit.
+- `styles.css` controls fonts, colors, spacing, the rectangular grayscale portrait, and the page layout. The color values are grouped near the top under `:root`.
+- `assets/profile.jpg` is the portrait. Replace this file with another JPG using the same filename to change the photo.
 
-Open `index.html` in a browser. The portrait is embedded in the page, so no image asset directory is required.
+For a publication, copy one `<article class="timeline-row publication-row">...</article>` block in `index.html`, then edit its year, title, authors, venue, and links. For a benchmark, copy a `<article class="timeline-row benchmark-row">...</article>` block.
+
+## Publish your edits
+
+You can edit these files in GitHub's web editor and commit the change to `main`, or edit them locally and push the commit. GitHub Pages publishes from the repository root, so a push to `main` starts a site rebuild automatically.
+
+To preview locally, open `index.html` in a browser.
